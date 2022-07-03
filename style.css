@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #192440;
+    --secondary-color: #00ffad;
+    --tertiary-color: #292b2c;
+    --quaternary-color: #ffffff;
+}
+
+html {
+    font-size: 10px;
+    font-family: Ubuntu, sans-serif;
+    line-height: 1.5;
+}
+
+/* Write your code below */
+#banner{
+    background-image:url(./images/banner-bg-image.jpg);
+    padding-top: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+}
+header a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    border: white solid 1px;
+    border-radius: 5px;
+    padding:2px;
+}
+header img  { 
+    width :90px;
+}
+.container h1 {
+    color:white;
+}
+.container p {
+    color:white;
+    font-size: 2rem;
+}
+.container button {
+    background-color: var(--secondary-color);
+    border-radius:25px ;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    margin:50px 0px;
+}
+
+/* second part */
+
+.font-weight-bold {
+    text-align: center;
+}
+.protection .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+.protection .card-1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    padding :10px 20px;
+}
+.protection .card-2 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    padding :10px 20px;
+    
+}
+.protection .card-3 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    max-width: 250px;
+    margin: 0px auto;
+}
+.cards img {
+    width: 181px;
+}
+.cards h4 {
+   font-size: 2rem;
+   margin:20px
+}
+.cards p {
+    color: var(--primary-color) ;
+    
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* third part*/
+.feature-1-wrapper{
+    background-image: linear-gradient(to bottom right,#ffffff 50%,#00FFAD 50%);
+    padding: 20px;
+} 
+.feature-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.feature-1-wrapper .my-4{
+    color: var( --tertiary-color);
+    font-size: 1.5rem;
+}
+.feature-1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.feature-1 button {
+    background-color: var(--primary-color);
+    border-radius:25px ;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    margin:50px 0px;
+    color: white;
+}
+.feature-2-wrapper {
+    background-color: var(--secondary-color) ;
+}
+.feature-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    flex-wrap: wrap;  
+}
+.feature-2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.feature-2-wrapper .my-4{
+    color: var( --tertiary-color);
+    font-size: 1.5rem;
+}
+.feature-2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.feature-2 button {
+    background-color: var(--primary-color);
+    border-radius:25px ;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    margin:50px 0px;
+    color: white;
+}
+
+/* fourth part */
+
+.pricing .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px;
+}
+.pricing .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9d9d9;
+    max-width :300px;
+    width:100%;
+    border-radius: 2px;
+
+}
+
+
+
+ 
+
+
+
+/* Write your code above */
+
+h1 {
+    font-size: 7.2rem;
+    margin: 4.8rem 0;
+    line-height: 1.1;
+}
+
+h2 {
+    font-size: 4.5rem;
+}
+
+p, li, label {
+    font-size: 1.6rem;
+}
+
+.font-weight-bold {
+    font-weight: 700;
+}
+
+.font-weight-light {
+    font-weight: 300;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
